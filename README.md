@@ -1,8 +1,8 @@
-# Persona
+# PersonaAI
 
 A minimalist, full-stack AI chatbot that remembers you and builds a personality profile from your conversations.
 
-- Lets you chat naturally with an AI (gemini-2.5-flash from google-genai)
+- Lets you chat naturally with an AI (Google Gemini)
 - Persists every conversation in Pinecone vector database (free tier)
 - Learns from your chat history using sentence embeddings
 - When you ask “Who am I?” or “Tell me about myself” (after at least 3 messages), it generates a fun, accurate personality-style profile based on everything you’ve said
@@ -10,14 +10,14 @@ A minimalist, full-stack AI chatbot that remembers you and builds a personality 
 Features
 
 - Clean, mobile-friendly UI with Tailwind CSS
-- Zero-cost LLM & embeddings (Google GenAI free tier)
+- Zero-cost LLM & embeddings (Google Gemini free tier)
 - Persistent memory via Pinecone serverless index
 - Retrieval-augmented profile generation
 - Full TypeScript codebase
 - Jest tests for core logic
 - Single-user demo (easy to extend with auth)
 
-Tech stack: Next.js 14 (app router) • React • TypeScript • Tailwind • Google GenAI Inference • Pinecone • Jest
+Tech stack: Next.js 14 (app router) • React • TypeScript • Tailwind • Google Gemini Inference • Pinecone • Jest
 
 ## Setup
 

@@ -67,7 +67,7 @@ export default function Chat() {
               msg.role === "user" ? "user-message" : "assistant-message"
             }`}
           >
-            <strong>{msg.role === "user" ? "You:" : "Persona:"}</strong>{" "}
+            <strong>{msg.role === "user" ? "You:" : "PersonA:"}</strong>{" "}
             <div className="mt-1">
               {msg.role === "assistant" ? (
                 <MarkdownMessage content={msg.content} />
